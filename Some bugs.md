@@ -1,4 +1,4 @@
-1. GET request is used to create a player (should be POST)
+1\. GET request is used to create a player (should be POST)
 
 2\. POST request is used to get a player (should be GET)
 
@@ -19,6 +19,8 @@ and message "User already exists")
 
 10\. Fields gender and password fail validation (password must contain Latin letters and digits, 7–15 chars; gender can
 only be male or female)
+
+11\. Password field is not required (should be)
 
 Some critical bugs were covered with automated tests.
 
